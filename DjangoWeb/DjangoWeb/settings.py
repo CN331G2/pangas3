@@ -130,4 +130,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = ['https://stormy-ravine-24433.herokuapp.com/login/']
 
 import django_heroku
+
 django_heroku.settings(locals())
